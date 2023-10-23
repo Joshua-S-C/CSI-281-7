@@ -1,0 +1,5 @@
+Joshua Sinclair Chong
+1 - A line of people, 
+2 - A stack of papers, 
+3 - No, because the unit tests might not be "good". If they don't encompas a wide range of possibilities, then it's unknown if the software will work correctly under those circumstances. 
+4 - Linked Lists are much faster at adding/removing components from the head/tail or top/bottom.
