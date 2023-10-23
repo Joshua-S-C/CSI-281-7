@@ -35,7 +35,7 @@ using namespace csi281;
 
 TEST_CASE( "Queue Tests", "[queue]" ) {
     SECTION( "Queue w/ int tests" ) {
-        Queue<int> q1 = Queue<int>();
+        //Queue<int> q1 = Queue<int>();
         // Ensure that push(), pop(), and peek()
         // work properly in concert with getCount()
         // and remove()
@@ -43,7 +43,7 @@ TEST_CASE( "Queue Tests", "[queue]" ) {
     }
     
     SECTION( "Queue w/ string tests" ) {
-        Queue<string> q2 = Queue<string>();
+        //Queue<string> q2 = Queue<string>();
         // Ensure that push(), pop(), and peek()
         // work properly in concert with getCount()
         // and remove()
@@ -53,7 +53,7 @@ TEST_CASE( "Queue Tests", "[queue]" ) {
 
 TEST_CASE( "Stack Tests", "[stack]" ) {
     SECTION( "Stack w/ int tests" ) {
-        Stack<int> s1 = Stack<int>();
+        //Stack<int> s1 = Stack<int>();
         // Ensure that push(), pop(), and peek()
         // work properly in concert with getCount()
         // and remove()
@@ -61,7 +61,7 @@ TEST_CASE( "Stack Tests", "[stack]" ) {
     }
     
     SECTION( "Stack w/ string tests" ) {
-        Stack<string> s2 = Stack<string>();
+        //Stack<string> s2 = Stack<string>();
         // Ensure that push(), pop(), and peek()
         // work properly in concert with getCount()
         // and remove()
