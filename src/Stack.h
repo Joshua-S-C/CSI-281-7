@@ -33,12 +33,26 @@
 
 using namespace std;
 
+// LIFO
 namespace csi281 {
     template
     <typename T>
     class Stack : public SequentialCollection<T> {
     public:
         // YOUR CODE HERE
+        void push(T item) {
+            backingStore.push_front(item);
+            backingStore.backingStore.push_front;
+        }
+
+        void pop() { 
+       
+        }
+
+        T peek() {
+            return backingStore.front;
+        }
+
     protected:
         using SequentialCollection<T>::backingStore;
     };

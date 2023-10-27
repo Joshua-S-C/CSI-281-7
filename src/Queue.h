@@ -33,6 +33,7 @@
 
 using namespace std;
 
+//FIFO
 namespace csi281 {
     template
     <typename T>
