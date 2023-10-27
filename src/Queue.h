@@ -1,4 +1,4 @@
-//
+//  Joshua Sinclair Chong
 //  Queue.h
 //
 //  This file defines a Queue class.

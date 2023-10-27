@@ -1,4 +1,4 @@
-//
+//  Joshua Sinclair Chong
 //  Stack.h
 //
 //  This file defines a Stack class.
