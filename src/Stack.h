@@ -39,18 +39,18 @@ namespace csi281 {
     <typename T>
     class Stack : public SequentialCollection<T> {
     public:
-        // YOUR CODE HERE
-        void push(T item) {
-            backingStore.push_front(item);
-            backingStore.backingStore.push_front;
+        virtual void push(const T &item) {
+            backingStore.push_back(item);
         }
 
-        void pop() { 
-       
+        virtual T pop() { 
+            T popped = backingStore.back();
+            backingStore.pop_back();
+            return popped;
         }
 
-        T peek() {
-            return backingStore.front;
+        virtual T &peek() {
+            return backingStore.back();
         }
 
     protected:

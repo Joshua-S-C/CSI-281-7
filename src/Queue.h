@@ -39,7 +39,20 @@ namespace csi281 {
     <typename T>
     class Queue : public SequentialCollection<T> {
     public:
-        // YOUR CODE HERE
+        virtual void push(const T &item) {
+            backingStore.push_back(item);
+        }
+
+        virtual T pop() {
+            T popped = backingStore.front();
+            backingStore.pop_front();
+            return popped;
+        }
+
+        virtual T &peek() {
+            return backingStore.front();
+        }
+
     protected:
         using SequentialCollection<T>::backingStore;
     };
